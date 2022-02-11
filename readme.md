@@ -1,2 +1,3 @@
-Para executar, primeiro inicie o venv (python virtual)
+To run, first start venv (virtual python)
+
 # source venv/bin/activate
