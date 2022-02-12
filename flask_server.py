@@ -112,5 +112,4 @@ def rejected_img():
 
 
 if __name__ == "__main__":
-    app.run(host='https://anchorloansbackend.herokuapp.com',
-            port=5000, debug=True)
+    app.run(threaded=True, port=5000, debug=True)
