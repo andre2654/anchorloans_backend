@@ -111,5 +111,10 @@ def rejected_img():
     return {'message': 'ok'}
 
 
+@app.route("/", methods=['GET', 'POST'])
+def index():
+    return {'message': 'hi'}
+
+
 if __name__ == "__main__":
-    app.run(threaded=True, port=5000, debug=True)
+    app.run(threaded=True, debug=True)
